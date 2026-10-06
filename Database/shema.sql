@@ -1,4 +1,4 @@
-CREATE TABLE regularite_tgv (
+CREATE TABLE IF NOT EXISTS regularite_tgv (
     id SERIAL PRIMARY KEY,
 
     date TEXT,
