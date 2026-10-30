@@ -18,6 +18,5 @@ df = pd.read_sql(requete, conn)
 
 print(df)
 
-print(df)
 
 conn.close()
